@@ -1,0 +1,1 @@
+javascript:var n=2;var s=document.getSelection().toString();var p=location.host + location.pathname.replace(new RegExp('(?:\\\/+[^\\\/]*){0,%27%20+%20((n%20||%200)%20+%201)%20+%20%27}$%27),%20%27/%27);if(!!s){p=p+%22+%22+s;}location.href=%22https://www.google.com/search?q=site:%22+p;
