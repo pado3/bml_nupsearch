@@ -22,3 +22,7 @@ location.href="https://www.google.com/search?q=site:%22+p;<br />
 javascript:var n=1;var s=document.getSelection().toString();var p=location.host + location.pathname.replace(new RegExp('(?:\\\/+[^\\\/]*){0,' + ((n || 0) + 1) + '}$'), '/');if(!!s){p=p+"+"+s;}location.href="https://www.google.com/search?q=site:%22+p;<br />
 <p>
 改変、および改変したものの配布は自己責任でご自由にどうぞ。ご参考まで<br />
+<p>
+【note 2022/11/22】<br />
+検索結果を別タブで開きたいときは、location.hrefをwindow.openに代えます。_blankが必要です。<br />
+window.open("https://www.google.com/search?q=site:"+p,"_blank");<br />
